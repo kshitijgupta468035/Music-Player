@@ -22,7 +22,7 @@ loadSong(songs[songIndex]);
 function loadSong(song) {
   title.innerText = "song" + "(" + Math.floor(Math.random() * 48) + ")";
   audio.src = `music/song (${Math.floor(Math.random() * 48)}).mp3`;
-  cover.src = `images/wallpaper (${Math.floor(Math.random() * 27)}).jpg`;
+  cover.src = `images/wallpaper (${Math.floor(Math.random() * 26)}).jpg`;
 }
 
 // Play song
