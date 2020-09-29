@@ -4,7 +4,12 @@ Create beautiful UI to play music stored in the "music folder" using the HTML5 a
 
 Project Specifications:-
 
-1. Create UI for music player including spinning image and song 2. Detail popup
+1. Create UI for music player including spinning image and song
+2. Detail popup
 3. Add play and pause functionality
 4. Switch songs
 5. Progress bar
+
+Update daily more songs so stay tuned.
+
+Working on more good and responsive user interface and also going to add more features soon.
