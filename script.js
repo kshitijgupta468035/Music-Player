@@ -11,7 +11,7 @@ const cover = document.getElementById('cover');
 
 // Song titles
 const songs = "song ";
-const images = ["hey", "summer", "ukulele"]
+const images = "walpaper ";
 // Keep track of song
 let songIndex = 2;
 
@@ -22,7 +22,7 @@ loadSong(songs[songIndex]);
 function loadSong(song) {
   title.innerText = "song" + "(" + Math.floor(Math.random() * 48) + ")";
   audio.src = `music/song (${Math.floor(Math.random() * 48)}).mp3`;
-  cover.src = `images/${images[Math.floor(Math.random() * 3)]}.jpg`;
+  cover.src = `images/wallpaper (${Math.floor(Math.random() * 27)}).jpg`;
 }
 
 // Play song
