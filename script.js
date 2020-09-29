@@ -10,7 +10,7 @@ const title = document.getElementById('title');
 const cover = document.getElementById('cover');
 
 // Song titles
-const songs = ['dance', 'hero', 'judai', 'party'];
+const songs = "song ";
 const images = ["hey", "summer", "ukulele"]
 // Keep track of song
 let songIndex = 2;
@@ -20,8 +20,8 @@ loadSong(songs[songIndex]);
 
 // Update song details
 function loadSong(song) {
-  title.innerText = song;
-  audio.src = `music/${song}.mp3`;
+  title.innerText = "song" + "(" + Math.floor(Math.random() * 48) + ")";
+  audio.src = `music/song (${Math.floor(Math.random() * 48)}).mp3`;
   cover.src = `images/${images[Math.floor(Math.random() * 3)]}.jpg`;
 }
 
